@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cyrus Tabakhi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="stylesheet.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #dcd6d6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 40px auto;
+      background: rgba(242, 243, 243, 0.715);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .name {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #fafafa;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 20px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      border-radius: 8px;
+      transition: transform 0.2s ease;
+    }
+
+    .card img:hover {
+      transform: scale(1.03);
+    }
+
+    .papertitle {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .header img {
+      width: 140px;
+      border-radius: 50%;
+    }
+
+    .links {
+      margin-top: 15px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    /* for buttons */
+    .btn {
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      display: inline-block;
+      font-size: 14px;
+    }
+
+    .btn-email {
+      background-color: #0077cc;
+      color: white;
+    }
+
+    .btn-email:hover {
+      background-color: #005fa3;
+    }
+
+    .btn-resume {
+      background-color: #28a745;
+      color: white;
+    }
+
+    .btn-resume:hover {
+      background-color: #1e7e34;
+    }
+
+    .btn-github {
+      background-color: #333;
+      color: white;
+    }
+
+    .btn-github:hover {
+      background-color: #000;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <div style="flex:1;">
+      <p class="name">Cyrus Tabakhi</p>
+      <p>
+        I'm a student at <a href="https://www.yorku.ca/">York University</a> in Canada, who is very passionate about cybersecurity, generative AI, psychology, and ethics. 
+        I am currently seeking entry-level SOC Analyst or Security Analyst roles where I can apply my skills and continue learning in a real-world environment.
+      </p>
+      <p>
+        My interests include cybersecurity, generative AI, psychology, and ethics. 
+      </p>
+
+      <div class="links">
+        <a href="mailto:cyrust2004@gmail.com" class="btn btn-email">Email</a>
+        <a href="resume.html" class="btn btn-resume">Resume</a>
+        <a href="https://github.com/tabakhic/Cyber-Projects" class="btn btn-github">GitHub</a>
+      </div>
+    </div>
+
+    <img src="images/linked in.jpg" alt="profile photo">
+  </div>
+
+  <div class="section">
+    <h2>Interests</h2>
+    <p>
+      I'm deeply interested in how cybersecurity connects with psychology, generative AI, and ethics. My goal is to build a career in SOC or security analysis, and eventually move into Cyber Law.
+    </p>
+  </div>
+
+ 
+
+  <div class="section">
+    <div class="card">
+      <table style="width:100%;">
+        <tr>
+          <td style="width:25%;">
+            <a href="resume.html">
+              <img src="images/resume.png" style="width:100%;">
+            </a>
+          </td>
+
+          <td style="padding-left:20px;">
+            <a href="resume.html">
+              <span class="papertitle">Resume and Skills</span>
+            </a>
+            <p>
+              View my resume, technical skills, and career interests. I am currently open to entry-level SOC and Security Analyst roles.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+ <div class="section">
+    <div class="card">
+      <table style="width:100%;">
+        <tr>
+          <td style="width:25%;">
+            <a href="https://www.amazon.ca/Crucified-Compass-Where-Becomes-Direction/dp/B0FTYXM1YQ/">
+              <img src="images/amazonbooks.png" style="width:100%;">
+            </a>
+          </td>
+
+          <td style="padding-left:20px;">
+            <a href="https://www.amazon.ca/Crucified-Compass-Where-Becomes-Direction/dp/B0FTYXM1YQ/">
+              <span class="papertitle">Crucified Compass: Where Death Becomes Direction</span>
+            </a>
+            <p>
+              I wrote a theology book exploring themes of pain, purpose, and transformation.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+
+</body>
+</html>
