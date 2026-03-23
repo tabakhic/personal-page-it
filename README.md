@@ -1,7 +1,7 @@
-# 🌐 Personal Website — Assignment 2 ITECH 1010
+# Personal Website — Assignment 2 ITECH 1010
 
 ## 🔗 Live Website
-👉 https://yourusername.github.io/personal-website/
+
 
 ---
 
@@ -20,7 +20,7 @@ It showcases my background, interests, and career goals in cybersecurity.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - HTML  
 - CSS  
 - GitHub Pages  
