@@ -1,14 +1,31 @@
-# Assignment 2
+# 🌐 Personal Website — Assignment 2 ITECH 1010
 
-## Features
-- Personal introduction and background
-- Overview of interests (cybersecurity, AI, psychology, ethics)
-- Featured project: *Crucified Compass* (Amazon book)
-- Resume page with embedded PDF
-- Links to GitHub and contact email
+## 🔗 Live Website
+👉 https://yourusername.github.io/personal-website/
 
-## Live Website
-[https://yourusername.github.io/personal-website/](https://yourusername.github.io/personal-website/)
+---
 
-## Author
-Cyrus Tabakhi
+## 📌 Overview
+This project is a personal website built using HTML and CSS template, then deployed using GitHub Pages.  
+It showcases my background, interests, and career goals in cybersecurity.
+
+---
+
+## ✨ Features
+- 👤 Personal introduction and background  
+- 🧠 Interests in cybersecurity, AI, psychology, and ethics  
+- 📖 Featured project: *Crucified Compass* (Amazon book)  
+- 📄 Dedicated resume page with embedded PDF  
+- 🔗 Quick access to GitHub and contact email  
+
+---
+
+## 🛠️ Technologies Used
+- HTML  
+- CSS  
+- GitHub Pages  
+
+---
+
+## 👨‍💻 Author
+**Cyrus Tabakhi**
